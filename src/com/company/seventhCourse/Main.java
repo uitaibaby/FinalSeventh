@@ -16,7 +16,6 @@ public class Main {
 
         NonFossilCar mirai = new NonFossilCar("Toyota Mirai", "hydrogen");
         mirai.soundOfNewEra();
-
         mirai.toString();
     }
 }
