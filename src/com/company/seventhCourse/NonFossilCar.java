@@ -1,8 +1,8 @@
 package com.company.seventhCourse;
 
-public class ElectricalCar extends Car implements Electrical{
+public class NonFossilCar extends Car implements Electrical, Alternative{
 
-    public ElectricalCar(String model, String engine) {
+    public NonFossilCar(String model, String engine) {
         super(model, engine);
     }
 

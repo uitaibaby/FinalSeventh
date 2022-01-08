@@ -11,8 +11,9 @@ public class Main {
         };
         audi.sound();
 
-        ElectricalCar tesla = new ElectricalCar("Tesla T", "electrical");
+        NonFossilCar tesla = new NonFossilCar("Tesla T", "electrical");
         tesla.sound();
+
 
 
     }

@@ -6,6 +6,7 @@ public class Car {
     public Car (String model, String engine){
         this.model = model;
         this.engine = engine;
-        System.out.println("This is the " + model + " car");
+        //System.out.println("This is the " + model + " car");
     }
+
 }
