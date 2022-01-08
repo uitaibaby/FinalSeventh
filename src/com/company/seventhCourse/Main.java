@@ -6,13 +6,16 @@ public class Main {
         FossilFuel audi = new FossilFuel("Audi TT", "benzine") {
             @Override
             public void sound() {
-                System.out.println("audi burn fuel");
+                System.out.println("Audi burn fuel");
             }
         };
         audi.sound();
 
         NonFossilCar tesla = new NonFossilCar("Tesla T", "electrical");
         tesla.sound();
+
+        NonFossilCar mirai = new NonFossilCar("Toyota Mirai", "hydrogen");
+        mirai.soundOfNewEra();
 
 
 
