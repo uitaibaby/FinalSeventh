@@ -18,8 +18,5 @@ public class Main {
         mirai.soundOfNewEra();
 
         mirai.toString();
-
-
-
     }
 }
